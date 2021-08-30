@@ -100,7 +100,7 @@ while True:
     elif int(inputs[0]) == 2:
         number = input("Buscando los TOP ?: ")
         books = controller.getBestBooks(catalog, int(number))
-        printBestBooks(books)
+        printBestBooks(books) 
 
     elif int(inputs[0]) == 3:
         authorname = input("Nombre del autor a buscar: ")
